@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS_game</title>
+</head>
+<style>
+   
+   body, html {
+    
+    height: 100%;
+    margin: 0;
+    }
+    .container {
+        /* The image used */
+        background-image: url("IMG/rps_i.jpg");
+
+        /* Full height */
+        height: 100%; 
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        text-align: center;
+    }
+    .footera {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+    }
+    
+    </style>
+<body>
+	<div class="container">
+        <head>This is the game of the year</head>
+        <header>
+            <div class = logo>
+                <h1 class="titulos">RPS Multiplayer</h1>
+                <h1 class="subtitulos"> &nbsp; Rock, Paper, Scissors</h1>
+            </div>        
+            <form>
+            <div class = game>
+                <label for="rps">Write your tool:</label><br>
+                <input type="text" id="rps" name="rps" value="rock|paper|scissors"  onclick="this.select()"><br>  <br>
+                <input  type="submit" value="Submit"><br>
+            </div>        
+            </form>            
+        </header>
+        <footer class="footera">
+            <p> Created by Jose Andres Miguel &copy;</p>
+        </footer>
+	</div>
+    </body> 
+</html>
